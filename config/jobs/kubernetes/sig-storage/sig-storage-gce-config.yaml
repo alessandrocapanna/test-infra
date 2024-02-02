@@ -214,7 +214,7 @@ presubmits:
 periodics:
 - interval: 24h
   name: ci-kubernetes-e2e-gce-iscsi-serial
-  cluster: eks-prow-build-cluster
+  cluster: k8s-infra-prow-build
   labels:
     preset-service-account: "true"
     preset-k8s-ssh: "true"
